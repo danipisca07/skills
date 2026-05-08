@@ -1,9 +1,12 @@
 ---
 name: requirements-elicitation
-description: Guides a structured requirements elicitation session for a software feature or system. Use when the user wants to gather all necessary information before writing an implementation plan, says "elicitation", "fai un'elicitazione", "raccogli i requisiti", "intervistami sul progetto", or wants to define what to build before coding. Do NOT generate code, architecture, or implementation plans — only ask questions.
+description: >
+  Requirements elicitation interview for software features or systems.
+  ONLY activate when the user explicitly writes "/elicit" or "start elicitation".
+  Do NOT activate for any other request, including coding, planning, architecture, analysis, or general questions.
 metadata:
   author: user
-  version: 1.0.0
+  version: 1.1.0
   category: requirements-engineering
 ---
 
